@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main{
+    max-width: 900px;
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+h1 {
+    max-width: 900px;
+    width: 95%;
+    padding: 0 1rem;
+}
+
+select[multiple] {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+    min-height: 150px;
+    min-width: 75px;
+    border-width: 2px;
+    border-style: inset;
+    -moz-appearance: menulist;
+    -webkit-appearance: menulist;
+    appearance: menulist;
+}
+
+form {
+    
+    padding: 1rem;
+}
+
+.section--row {
+    display: flex;
+    flex-flow: row;
+}
+
+.section--column {
+    display: flex;
+    flex-flow: column;
+}
+
+form label {
+    flex: 1;
+    padding: 5px;
+}
+
+form button{
+    margin: 5px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+form .form--inputs, form button {
+    flex: 1;
+}
+
+form .form--inputs>* {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+#results {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#results .park{
+    padding: 1rem;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #aaa;
+    margin: 0.5rem;
+}
+
+#results .parkaddress {
+    flex: 1;
+    margin: 5px 0;
+}
+
+#results .parkaddress p {
+    margin: 0px;
+}
