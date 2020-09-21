@@ -1,4 +1,4 @@
-# webpack starter for paint
+# National Parks Service - Park Search
 
 ## Install
 
